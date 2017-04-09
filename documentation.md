@@ -1,0 +1,25 @@
+- Prologue
+    - [Foreword](/docs/{{version}}/foreword)
+    - [For Exp. Programmers](/docs/{{version}}/advanced-foreword)
+- Getting Started
+    - [Installation](/docs/{{version}}/installation)
+    - [Configuration](/docs/{{version}}/configuration)
+- The Basics
+    - [Quickstart](/docs/{{version}}/quickstart)
+    - [Tutorial](/docs/{{version}}/tutorial)
+
+- Advanced
+    - [Jinja Templates](/docs/{{version}}/jinja)
+    - [Testing](/docs/{{version}}/testing)
+    - [Errors & Logging](/docs/{{version}}/errors)
+    - [Signals](/docs/{{version}}/signals)
+    - [Pluggable Views](/docs/{{version}}/views)
+    - [Application Context](/docs/{{version}}/app-context)
+    - [Blueprints](/docs/{{version}}/blueprints)
+    - [Extensions](/docs/{{version}}/extensions)
+    - [CLI](/docs/{{version}}/cli)
+    - [Development Server](/docs/{{version}}/server)
+    - [Shell](/docs/{{version}}/shell)
+    - [Patterns](/docs/{{version}}/patterns)
+    - [Deployment Options](/docs/{{version}}/deploying)
+    - [Becoming Big](/docs/{{version}}/becoming-big)
