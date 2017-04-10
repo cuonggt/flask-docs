@@ -14,11 +14,11 @@ You will need Python 2.6 or newer to get started, so be sure to have an up-to-da
 <a name="virtualenv"></a>
 ## virtualenv
 
-`Virtualenv` is probably what you want to use during development, and if you have shell access to your production machines, you'll probably want to use it there, too.
+Virtualenv is probably what you want to use during development, and if you have shell access to your production machines, you’ll probably want to use it there, too.
 
-What problem does virtualenv solve? If you like Python as much as I do, chances are you want to use it for other projects besides Flask-based web applications. But the more projects you have, the more likely it is that you will be working with different versions of Python itself, or at least different versions of Python libraries. Let's face it: quite often libraries break backwards compatibility, and it's unlikely that any serious application will have zero dependencies. So what do you do if two or more of your projects have conflicting dependencies?
+What problem does virtualenv solve? If you like Python as much as I do, chances are you want to use it for other projects besides Flask-based web applications. But the more projects you have, the more likely it is that you will be working with different versions of Python itself, or at least different versions of Python libraries. Let’s face it: quite often libraries break backwards compatibility, and it’s unlikely that any serious application will have zero dependencies. So what do you do if two or more of your projects have conflicting dependencies?
 
-Virtualenv to the rescue! Virtualenv enables multiple side-by-side installations of Python, one for each project. It doesn't actually install separate copies of Python, but it does provide a clever way to keep different project environments isolated. Let's see how virtualenv works.
+Virtualenv to the rescue! Virtualenv enables multiple side-by-side installations of Python, one for each project. It doesn’t actually install separate copies of Python, but it does provide a clever way to keep different project environments isolated. Let’s see how virtualenv works.
 
 If you are on Mac OS X or Linux, chances are that the following command will work for you:
 
@@ -63,7 +63,7 @@ A few seconds later and you are good to go.
 <a name="system-wide-installation"></a>
 ## System-Wide Installtion
 
-This is possible as well, though I do not recommend it. Just run pip with root privileges:
+This is possible as well, though I do not recommend it. Just run `pip` with root privileges:
 
     $ sudo pip install Flask
 
@@ -94,7 +94,7 @@ This will pull in the dependencies and activate the git head as the current vers
 
 Sometimes getting the standard "Python packaging tools" like `pip`, `setuptools` and `virtualenv` can be a little trickier, but nothing very hard. The crucial package you will need is pip - this will let you install anything else (like virtualenv). Fortunately there is a "bootstrap script" you can run to install.
 
-If you don't currently have `pip`, then `get-pip.py` will install it for you.
+If you don't currently have `pip`, then *get-pip.py* will install it for you.
 
 [get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 
@@ -106,7 +106,7 @@ Most often, once you pull up a command prompt you want to be able to type `pip` 
 
 To fix this, you should be able to navigate to your Python install directory (e.g `C:Python27`), then go to `Tools`, then `Scripts`, then find the `win_add2path.py` file and run that. Open a **new** Command Prompt and check that you can now just type `python` to bring up the interpreter.
 
-Finally, to install [virtualenv](/docs/0.12/installation/#virtualenv), you can simply run:
+Finally, to install [virtualenv](#virtualenv), you can simply run:
 
     pip install virtualenv
 
