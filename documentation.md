@@ -1,6 +1,8 @@
 - Prologue
     - [Foreword](/docs/{{version}}/foreword)
     - [For Exp. Programmers](/docs/{{version}}/advanced-foreword)
+    - [Release Notes](/docs/{{version}}/releases)
+    - [Upgrade Guide](/docs/{{version}}/upgrade)
 - Getting Started
     - [Installation](/docs/{{version}}/installation)
     - [Configuration](/docs/{{version}}/configuration)
