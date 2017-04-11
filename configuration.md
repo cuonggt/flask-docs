@@ -70,7 +70,7 @@ Name | Description
 `TEMPLATES_AUTO_RELOAD` | Whether to check for modifications of the template source and reload it automatically. By default the value is None which means that Flask checks original file only in debug mode.
 `EXPLAIN_TEMPLATE_LOADING` | If this is enabled then every attempt to load a template will write an info message to the logger explaining the attempts to locate the template. This can be useful to figure out why templates cannot be found or wrong templates appear to be loaded.
 
-> ##### More on `SERVER_NAME`
+> **More on `SERVER_NAME`**
 
 > The `SERVER_NAME` key is used for the subdomain support. Because Flask cannot guess the subdomain part without the knowledge of the actual server name, this is required if you want to work with subdomains. This is also used for the session cookie.
 

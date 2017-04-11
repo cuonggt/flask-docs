@@ -231,7 +231,7 @@ Continue to [Step 5: Creating The Database](#creating-the-database).
 
 > If you've been following along in this tutorial, you might be wondering where to put the code from this step and the next. A logical place is to group these module-level functions together, and put your new `get_db` and `close_db` functions below your existing `connect_db` function (following the tutorial line-by-line).
 
-> If you need a moment to find your bearings, take a look at how the [example source](https://github.com/pallets/flask/tree/master/examples/flaskr/) is organized. In Flask, you can put all of your application code into a single Python module. You don't have to, and if your app [grows larger](/docs/{{version}}/patterns#larger-applications), it's a good idea not to.
+> If you need a moment to find your bearings, take a look at how the [example source](https://github.com/pallets/flask/tree/master/examples/flaskr/) is organized. In Flask, you can put all of your application code into a single Python module. You don't have to, and if your app [grows larger](/docs/{{version}}/larger-applications), it's a good idea not to.
 
 <a name="creating-the-database"></a>
 ## Step 5: Creating The Database
@@ -315,7 +315,7 @@ Note that this view checks that the user is logged in (that is, if the *logged_i
 
 > **Security Note**
 
-> Be sure to use question marks when building SQL statements, as done in the example above. Otherwise, your app will be vulnerable to SQL injection when you use string formatting to build SQL statements. See [Using SQLite 3 with Flask](/docs/{{version}}/patterns#sqlite3) for more.
+> Be sure to use question marks when building SQL statements, as done in the example above. Otherwise, your app will be vulnerable to SQL injection when you use string formatting to build SQL statements. See [Using SQLite 3 with Flask](/docs/{{version}}/sqlite3) for more.
 
 ### Login and Logout
 
