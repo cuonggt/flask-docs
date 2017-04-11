@@ -5,7 +5,7 @@
 - [Living on the Edge](#living-on-the-edge)
 - [pip and setuptools on Windows](#pip-and-setuptools-on-windows)
 
-Flask depends on some external libraries, like [Werkzeug](/docs/{{version}}/werkzeug) and [Jinja2](/docs/{{version}}/jinja). Werkzeug is a toolkit for WSGI, the standard Python interface between web applications and a variety of servers for both development and deployment. Jinja2 renders templates.
+Flask depends on some external libraries, like [Werkzeug](http://werkzeug.pocoo.org/) and [Jinja2](http://jinja.pocoo.org/). Werkzeug is a toolkit for WSGI, the standard Python interface between web applications and a variety of servers for both development and deployment. Jinja2 renders templates.
 
 So how do you get all that on your computer quickly? There are many ways you could do that, but the most kick-ass method is virtualenv, so let's have a look at that first.
 
