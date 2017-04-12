@@ -180,7 +180,7 @@ when this newline is missing. See [https://github.com/pallets/flask/pull/1262](h
 Released on June 13th 2013, codename Limoncello.
 
 
-- Changed default cookie serialization format from pickle to JSON to limit the impact an attacker can do if the secret key leaks. See [Version 0.10](/docs/{{version}}/upgrade#upgrading-to-010) for more information.
+- Changed default cookie serialization format from pickle to JSON to limit the impact an attacker can do if the secret key leaks. See [Version 0.10](/docs/{{version}}/upgrade#version-0-10) for more information.
 
 - Added `template_test` methods in addition to the already existing `template_filter` method family.
 
